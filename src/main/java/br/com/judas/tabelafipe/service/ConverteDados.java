@@ -1,4 +1,4 @@
-package br.com.alura.tabelafipe.service;
+package br.com.judas.tabelafipe.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

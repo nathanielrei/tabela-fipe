@@ -1,10 +1,10 @@
-package br.com.alura.tabelafipe.principal;
+package br.com.judas.tabelafipe.principal;
 
-import br.com.alura.tabelafipe.model.Dados;
-import br.com.alura.tabelafipe.model.Modelos;
-import br.com.alura.tabelafipe.model.Veiculo;
-import br.com.alura.tabelafipe.service.ConsomeApi;
-import br.com.alura.tabelafipe.service.ConverteDados;
+import br.com.judas.tabelafipe.model.Dados;
+import br.com.judas.tabelafipe.model.Modelos;
+import br.com.judas.tabelafipe.model.Veiculo;
+import br.com.judas.tabelafipe.service.ConsomeApi;
+import br.com.judas.tabelafipe.service.ConverteDados;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -32,11 +32,7 @@ public class Principal {
                 """;
         System.out.print(opcoes);
         buscarAutomovel();
-//        var veiculo = leitor.nextLine();
-//
-//        var json = consumo.obterDados(ENDERECO + veiculo.toLowerCase() + MARCAS);
-//           List<Dados> dados =converteDados.obterLista(json, Dados.class);
-//        dados.stream().sorted(Comparator.comparing(Dados::nome)).forEach(System.out::println);
+
         opcoes = """
                 *** Código ***
                  
@@ -51,24 +47,7 @@ public class Principal {
 
         System.out.println("Digite o nome do carro a ser buscado");
                 filtroModelos(getMarca(numero).modelos());
-//
-//
-//        System.out.println("****************************");
-//        List<Dados> anos =null;
-//        List<Veiculo> veiculoList = new ArrayList<>();
-//        for (int x =0;x<modelosFiltrados.size();x++){
-//        json = consumo.obterDados(ENDERECO + veiculo.toLowerCase()
-//                + MARCAS +"/"+ numero + "/modelos/" + modelosFiltrados.get(0).codigo()+"/anos");
-//            anos = converteDados.obterLista(json,Dados.class);
-//            json = consumo.obterDados(ENDERECO + veiculo.toLowerCase()
-//                    + MARCAS +"/"+ numero + "/modelos/" + modelosFiltrados.get(0).codigo()
-//                    +"/anos/"+ anos.get(x).codigo());
-//            System.out.println(json);
-//            Veiculo veiculo1 = converteDados.obterDados(json,Veiculo.class);
-//                veiculoList.add(veiculo1);
-//        }
-//       anos.stream().forEach(System.out::println);
-//        veiculoList.stream().forEach(System.out::println);
+
     }
     public void buscarAutomovel(){
         var dados = getAutomovel();

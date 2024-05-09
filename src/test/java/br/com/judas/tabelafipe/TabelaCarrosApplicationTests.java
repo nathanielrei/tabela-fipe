@@ -1,4 +1,4 @@
-package br.com.alura.tabelafipe;
+package br.com.judas.tabelafipe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

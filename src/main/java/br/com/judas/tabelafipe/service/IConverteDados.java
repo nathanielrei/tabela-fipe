@@ -1,4 +1,4 @@
-package br.com.alura.tabelafipe.service;
+package br.com.judas.tabelafipe.service;
 
 import java.util.List;
 

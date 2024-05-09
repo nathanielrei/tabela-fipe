@@ -1,4 +1,4 @@
-package br.com.alura.tabelafipe.model;
+package br.com.judas.tabelafipe.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
